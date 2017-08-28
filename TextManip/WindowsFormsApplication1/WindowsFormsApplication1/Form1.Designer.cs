@@ -30,14 +30,15 @@
         {
             this.ChooseFile = new System.Windows.Forms.Button();
             this.fileTextBox = new System.Windows.Forms.TextBox();
+            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.SuspendLayout();
             // 
             // ChooseFile
             // 
             this.ChooseFile.AccessibleName = "ChooseFile";
-            this.ChooseFile.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.ChooseFile.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.ChooseFile.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.ChooseFile.Location = new System.Drawing.Point(197, 226);
+            this.ChooseFile.Location = new System.Drawing.Point(382, 226);
             this.ChooseFile.Name = "ChooseFile";
             this.ChooseFile.Size = new System.Drawing.Size(90, 23);
             this.ChooseFile.TabIndex = 0;
@@ -62,6 +63,15 @@
             this.fileTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.fileTextBox.Visible = false;
             // 
+            // progressBar1
+            // 
+            this.progressBar1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.progressBar1.Location = new System.Drawing.Point(13, 227);
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(363, 23);
+            this.progressBar1.TabIndex = 3;
+            // 
             // Form1
             // 
             this.AccessibleName = "ChooseFile";
@@ -69,6 +79,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(484, 261);
+            this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.fileTextBox);
             this.Controls.Add(this.ChooseFile);
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
@@ -85,6 +96,7 @@
 
         private System.Windows.Forms.Button ChooseFile;
         private System.Windows.Forms.TextBox fileTextBox;
+        private System.Windows.Forms.ProgressBar progressBar1;
     }
 }
 
