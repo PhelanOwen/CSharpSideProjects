@@ -35,6 +35,7 @@
             // ChooseFile
             // 
             this.ChooseFile.AccessibleName = "ChooseFile";
+            this.ChooseFile.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.ChooseFile.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.ChooseFile.Location = new System.Drawing.Point(197, 226);
             this.ChooseFile.Name = "ChooseFile";
@@ -47,6 +48,9 @@
             // fileTextBox
             // 
             this.fileTextBox.AccessibleName = "fileTextBox";
+            this.fileTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.fileTextBox.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.fileTextBox.Location = new System.Drawing.Point(12, 12);
             this.fileTextBox.Multiline = true;
@@ -55,6 +59,7 @@
             this.fileTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.fileTextBox.Size = new System.Drawing.Size(460, 208);
             this.fileTextBox.TabIndex = 2;
+            this.fileTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.fileTextBox.Visible = false;
             // 
             // Form1
@@ -68,6 +73,7 @@
             this.Controls.Add(this.ChooseFile);
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Text Displayer";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
